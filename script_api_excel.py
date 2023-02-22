@@ -89,10 +89,6 @@ def parse_phone(number):
         return number
 
 
-def get_data_sorted(x):
-    return x['title']
-
-
 def main():
     create_book(URL)
 
